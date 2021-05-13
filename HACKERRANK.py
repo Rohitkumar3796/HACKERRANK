@@ -1,9 +1,9 @@
-'''LIST COMPREHENSION MEANS PRINT CHARACTER OR SOMETHING IN A LINE
- and print number lexicographically
-ABC=ACB,BAC,BCA,CAB,CBA #First character should be sorted
-increasing order :1,2,3,4,5
-lexicographically or non-decreasing order :1,2,2,3,3,4,5 increasing + Equal before number or character
-'''
+# '''LIST COMPREHENSION MEANS PRINT CHARACTER OR SOMETHING IN A LINE
+#  and print number lexicographically
+# ABC=ACB,BAC,BCA,CAB,CBA #First character should be sorted
+# increasing order :1,2,3,4,5
+# lexicographically or non-decreasing order :1,2,2,3,3,4,5 increasing + Equal before number or character
+# '''
 # if __name__ == '__main__':
 #     x = int(input("num1"))
 #     y = int(input("num2"))
@@ -20,7 +20,7 @@ lexicographically or non-decreasing order :1,2,2,3,3,4,5 increasing + Equal befo
 # x,y,z,n=[int(input("enter the number")) for i in range(4)]
 # print([[i,j,k] for i in range(x+1)  for j in range(y+1) for k in range(z+1)  if (x+y+z)!=n])
 # ====================================================================
-'RUNNER UP SCORE MAX IS 6 and RUNNER UP IS 5'
+# 'RUNNER UP SCORE MAX IS 6 and RUNNER UP IS 5'
 # if __name__ == '__main__':
 #     n = int(input("how much"))
 #     arr = list(map(int, input("enter element").split()))
@@ -134,15 +134,14 @@ import re   #input 100,000,000.000
 #     for i in m:
 #         print(i)
 # ------------------------------------------------------------------------
-
 # import re
 # m=re.search(r'\d+','1234')
 # print(m.end())
 # print(m.start())
-"""OUTPUT string=aaadaa,substring=aa
-(0, 1)
-(1, 2)
-(4, 5)"""
+# """OUTPUT string=aaadaa,substring=aa
+# (0, 1)
+# (1, 2)
+# (4, 5)"""
 # import re
 # string = input()
 # substring = input()
