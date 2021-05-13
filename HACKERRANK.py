@@ -154,3 +154,46 @@ import re   #input 100,000,000.000
 #     print('({0}, {1})'.format(match.start(), match.end() - 1))
 #     match = pattern.search(string, match.start() + 1) #(that line is just pass the value to upper line)
 # ---------------------------------------------------------
+# COMMANDS AND OPERATION WITH LIST
+# if __name__ == '__main__':
+#     n = int(input().strip())
+#     Lis = []
+#     for t in range(n):
+#         args = input().strip().split()
+#         if args[0] == "append":
+#             Lis.append(int(args[1]))
+#         elif args[0] == "insert":
+#             Lis.insert(int(args[1]), int(args[2]))
+#         elif args[0] == "remove":
+#             Lis.remove(int(args[1]))
+#         elif args[0] == "pop":
+#             Lis.pop()
+#         elif args[0] == "sort":
+#             Lis.sort()
+#         elif args[0] == "reverse":
+#             Lis.reverse()
+#         elif args[0] == "print":
+#             print(Lis)
+# ------------------------------------------------------------------------
+# PRINT HASH VALUE
+# n=int(input())
+# print(hash(tuple(map(int,input().split()))))
+# ------------------------------------------------------------------------------
+# The first line contains X, the number of shoes.
+# The second line contains the space separated list of all the shoe sizes in the shop.
+# The third line contains N, the number of customers.
+# The next N lines contain the space separated values of the shoes size  desired by the customer and xi, the price of the shoe.
+# --------------------------------------------------------------------------------------
+#  from collections import *
+# numShoes = int(input('enter'))
+# sizes_list = Counter(map(int,input('enter').split()))
+# n_cx = int(input('enter'))
+# earned = 0
+# for i in range(n_cx):
+#     size, price = map(int,input('enter').split()) #if we use two variable to the map function, we dont need to pass input to any DS
+#     # print(size,price)
+#     if sizes_list[size]>0: # sizes_list[size] means we take the value of sizes_list dictionary that is 2 if shoes sizes is 6
+#         print(sizes_list[size])
+#         earned = earned+ price
+#         sizes_list[size] = sizes_list[size]- 1
+# print(earned)
