@@ -196,3 +196,20 @@ import re   #input 100,000,000.000
 #         earned = earned+ price
 #         sizes_list[size] = sizes_list[size]- 1
 # print(earned)
+# ---------------------------------------------------------------------------------
+# input='HackerRank.com presents "Pythonist 2"' output ='hACKERrANK.COM PRESENTS "pYTHONIST 2"'
+# means this code will swap lower char to upper
+# def swap_case(s):
+#     ans = ""
+#     for i in s:
+#         if i==i.upper():
+#             ans=ans+i.lower()
+#         else:
+#             ans=ans+i.upper()
+#     return ans
+
+# if __name__ == '__main__':
+#     # 'HackerRank.com presents "Pythonist 2"'
+#     s = input()
+#     result = swap_case(s)
+#     print(result)
