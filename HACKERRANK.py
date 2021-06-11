@@ -213,3 +213,28 @@ import re   #input 100,000,000.000
 #     s = input()
 #     result = swap_case(s)
 #     print(result)
+# =========================================================================================
+# Input :The first line of input contains the original string. The next line contains the substring.
+# OUTPUT :Output the integer number indicating the total number of occurrences of the substring in the original string.
+# # output is 2
+# count = 0
+# def count_substring(string, sub_string):
+#     global count
+#     if sub_string in string:
+#         if (len(string) - 1) <= 1:
+#             return count
+#         else:
+#             count_ind = string.find(sub_string)
+#             count += 1
+#             count_ind += 1
+#             count_substring(string[count_ind:], sub_string)
+#         return count
+#     else:
+#         return string.count(sub_string)
+
+# if __name__ == '__main__':
+#     string = input().strip()
+#     sub_string = input().strip()
+#     count = count_substring(string, sub_string)
+#     print(count)
+# =======================================================================================
