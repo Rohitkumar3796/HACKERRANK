@@ -217,6 +217,15 @@ import re   #input 100,000,000.000
 # Input :The first line of input contains the original string. The next line contains the substring.
 # OUTPUT :Output the integer number indicating the total number of occurrences of the substring in the original string.
 # # output is 2
+# string = "ininini"
+# sub_string = "ini"
+
+# count=0
+# for i in range(len(string)):
+#     if string[i:len(sub_string)+i]==sub_string:
+#         count+=1
+# print(count)
+# ===================RECURSION METHOD+++++++++++++++++++
 # count = 0
 # def count_substring(string, sub_string):
 #     global count
