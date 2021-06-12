@@ -226,24 +226,20 @@ import re   #input 100,000,000.000
 #         count+=1
 # print(count)
 # ===================RECURSION METHOD+++++++++++++++++++
-# count = 0
+# count=0
 # def count_substring(string, sub_string):
 #     global count
 #     if sub_string in string:
 #         if (len(string) - 1) <= 1:
 #             return count
 #         else:
-#             count_ind = string.find(sub_string)
+#             cnt_ind = string.find(sub_string)
 #             count += 1
-#             count_ind += 1
-#             count_substring(string[count_ind:], sub_string)
+#              # cnt_ind+1 to move 1 step ,if i won't give so it will take again & again same char
+#             count_substring(string[cnt_ind+1:], sub_string)
 #         return count
 #     else:
 #         return string.count(sub_string)
-
 # if __name__ == '__main__':
-#     string = input().strip()
-#     sub_string = input().strip()
-#     count = count_substring(string, sub_string)
-#     print(count)
+#     print(count_substring(string=(input().strip()), sub_string=(input().strip()))) #the vaue us returning to function
 # =======================================================================================
