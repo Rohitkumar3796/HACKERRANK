@@ -243,3 +243,21 @@ import re   #input 100,000,000.000
 # if __name__ == '__main__':
 #     print(count_substring(string=(input().strip()), sub_string=(input().strip()))) #the vaue us returning to function
 # =======================================================================================
+# cube=lambda x:x**3
+# def fibonacci(n):
+#     list=[]
+#     a,b=0,1
+#     if n==0:
+#         return list
+#     elif n==1:
+#         return [0]
+#     else:
+#         list=[a,b]
+#         for i in range(b,(n-1)):
+#             b,a=a+b,b
+#             list.append(b) #why a because in b we are storing value of addition of a+b
+#         return list
+
+# n=int(input("enter"))
+# print(list(map(cube,fibonacci(n))))
+# =======================================================================================
