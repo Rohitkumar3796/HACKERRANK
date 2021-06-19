@@ -243,6 +243,7 @@ import re   #input 100,000,000.000
 # if __name__ == '__main__':
 #     print(count_substring(string=(input().strip()), sub_string=(input().strip()))) #the vaue us returning to function
 # =======================================================================================
+# print fibonacci number in the list with squares of element eg[0,1,1,2,3,5]=[0,1,1,8,27,125]
 # cube=lambda x:x**3
 # def fibonacci(n):
 #     list=[]
