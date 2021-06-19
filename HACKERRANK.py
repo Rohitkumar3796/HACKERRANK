@@ -262,3 +262,14 @@ import re   #input 100,000,000.000
 # n=int(input("enter"))
 # print(list(map(cube,fibonacci(n))))
 # =======================================================================================
+# s="qA2"
+# here we used any function it returns like AND /OR
+# if any of the element in iterable is true so that is true if false then false
+# if __name__ == '__main__':
+#     print(any(i.isalnum() for i in s))
+#     print(any(i.isalpha() for i in s))
+#     print(any(i.isdigit() for i in s))
+#     print(any(i.islower() for i in s))
+#     print(any(i.isupper() for i in s))
+# ===========================================================================================
+# ===========================================================================================
