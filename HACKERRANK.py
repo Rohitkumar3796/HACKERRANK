@@ -272,4 +272,27 @@ import re   #input 100,000,000.000
 #     print(any(i.islower() for i in s))
 #     print(any(i.isupper() for i in s))
 # ===========================================================================================
+# product list of fraction numbers
+# from fractions import Fraction
+# from functools import reduce
+#
+# def product(fracs):
+#     t=reduce(lambda x,y:x*y,fracs)
+#     return t.numerator, t.denominator
+#
+# if __name__ == '__main__':
+#     fracs = []
+#     for _ in range(int(input())):
+#         fracs.append(Fraction(*map(int, input().split())))
+#     result = product(fracs)
+#     print(*result)
+# ==========================================================
+# PRINT DAY NAME AS PER DATE 
+# import calendar
+# d,m,y=map(int,input().split())
+# days=["MONDAY","TUSDAY","WEDNESDAY","THRUSDAY","FRIDAY","SATURDAY","SUNDAY"]
+# print(calendar.day_name[calendar.weekday(y,d,m)].upper())
+# -------OR----------
+# print(days[calendar.weekday(y,d,m)])
+# ==============================================================
 # ===========================================================================================
