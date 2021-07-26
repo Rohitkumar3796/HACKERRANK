@@ -369,3 +369,11 @@ import re   #input 100,000,000.000
 #         arr[len(arr)-1]=rotateValue
 #     return arr
 # rotateLeft(3,[1,2,3,4,5])
+# THAT ROTATION OF ARRAY TAKES LESS TIME
+# def rotateLeft(arr,d):
+# 
+#     arr=arr[d:len(arr)] + arr[0:d]
+#     return arr
+# print(rotateLeft([1,2,3,4,5],2))
+# =============================================================================================
+# =============================================================================================
