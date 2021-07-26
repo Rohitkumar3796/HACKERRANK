@@ -341,3 +341,21 @@ import re   #input 100,000,000.000
 # if __name__ == '__main__':
 #     s = input()
 #     minion_game(s)
+# =============================================================================================================
+# def addTwoElements(nums,target):
+#     for j in range(0, len(nums) - 1):
+#         if nums[j] + nums[j + 1] == target:
+#             return [j, j + 1]
+#         else:
+#             return "not Found"
+# print(addTwoElements([2,7,11,15],9))
+# # 2nd Method by two for loops
+# def addTwoElements_(nums,target):
+#     for i in range(0,len(nums)-1):
+#                 for j in range(i+1,len(nums)):
+#                     if nums[i] + nums[j] == target:
+#                         return [i, j]
+#                     else:
+#                         return "not Found"
+            
+# print(addTwoElements_([2,7,11,15],9))
